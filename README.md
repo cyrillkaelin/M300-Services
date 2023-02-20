@@ -1,2 +1,2 @@
 # M300-Services
-Plattform überfgreifende Dienste in ein Netzwerk integrieren
+Plattform übergreifende Dienste in ein Netzwerk integrieren
