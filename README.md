@@ -2,7 +2,7 @@
 Plattform übergreifende Dienste in ein Netzwerk integrieren
 SSH-KEY: xwljSHjoHohuEco6HhUH7Zu4p2sBYNM6Ea+N2HAYx7c
 
-##Bash und Git##
+## Bash und Git ##
 
 - Git Account erstellt
 - Repository erstellt
