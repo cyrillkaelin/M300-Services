@@ -39,6 +39,6 @@
 5. Im Formular unter Title eine Bezeichnung vergeben: **Meine Bezeichnung**  *MB SSH-KEY*
 6. Den Key im Ordner C:\Users\cyrill.kaelin.CYKA-CHZH-LAP03\.ssh\id_rsa.pub kopieren und mit CTRL + V einfügen und auf Add SSH key klicken
 7. Der Schlüssel (SSH-Key) sollte nun in der übergeordneten Liste auftauchen
-8. ***
 
-![This is an image](https://www.infoniqa.ch/fileadmin/_processed_/9/5/csm_finn_wehrli_2021_cd47130ca3.jpg) 
+
+![Git-Client](https://github.com/mc-b/M300/raw/master/images/Git_36x36.png) ##Git-Client##
