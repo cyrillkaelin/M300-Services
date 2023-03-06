@@ -20,7 +20,7 @@
 7. SSH-Key erstellen (lokal)
 
 ### SSH KEY erstellen ###
-1. ssh-keygen -t rsa -b 4096 -C ~~ E-Mail-Adresse von Git-Hub ~~ "cyrill.kaelin@edu.tbz.ch"
+1. ssh-keygen -t rsa -b 4096 -C ~~E-Mail-Adresse von Git-Hub~~ "cyrill.kaelin@edu.tbz.ch"
   anschliessend kommt die Meldung: * Neuer SSH-Key wird erstellt: Generating public/private rsa key pair. *
 2. Bei der Abfrage, unter welchem Namen der Schlüssel gespeichert werden soll, die Enter-Taste drücken (für Standard):
    Enter a file in which to save the key (~/.ssh/id_rsa): [Press enter]
@@ -34,9 +34,9 @@
 
 1. Anmelden unter www.github.com
 2. Auf Benutzerkonto klicken (oben rechts) und den Punkt Settings aufrufen
-3. Unter den Menübereichen auf der linken Seite zum Abschnitt * SSH und GPG keys * wechseln
+3. Unter den Menübereichen auf der linken Seite zum Abschnitt *SSH und GPG keys * wechseln
 4  Auf *New SSH key* klicken
-5. Im Formular unter Title eine Bezeichnung vergeben: ** Meine Bezeichnung **  * MB SSH-KEY *
+5. Im Formular unter Title eine Bezeichnung vergeben: **Meine Bezeichnung**  *MB SSH-KEY*
 6. Den Key im Ordner C:\Users\cyrill.kaelin.CYKA-CHZH-LAP03\.ssh\id_rsa.pub kopieren und mit CTRL + V einfügen und auf Add SSH key klicken
 7. Der Schlüssel (SSH-Key) sollte nun in der übergeordneten Liste auftauchen
 
