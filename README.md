@@ -1,14 +1,13 @@
 # M300-Services #
 ## Plattform übergreifende Dienste in ein Netzwerk integrieren ##
+***
 ### Vorbereitung ###
-
 - Git Account erstellt
 - Git Client herunterladen
 - Virtualbox herunterladen
 - Visualstudio Code herunterladen
 - Vagrant herunterladen
-
-
+***
 ## Bash und Git ##
 ### Repository erstellen ###
 1. Innerhalb der Willkommens-Seite auf Start a project klicken
@@ -18,7 +17,7 @@
 5. Haken bei Initialize this repository with a README setzen
 6. Auf Create repository klicken
 7. SSH-Key erstellen (lokal)
-
+***
 ### SSH KEY erstellen ###
 1. ssh-keygen -t rsa -b 4096 -C ~~E-Mail-Adresse von Git-Hub~~ "cyrill.kaelin@edu.tbz.ch"
   anschliessend kommt die Meldung: * Neuer SSH-Key wird erstellt: Generating public/private rsa key pair. *
