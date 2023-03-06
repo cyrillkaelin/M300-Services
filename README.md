@@ -41,4 +41,5 @@
 7. Der Schlüssel (SSH-Key) sollte nun in der übergeordneten Liste auftauchen
 
 
-![Git-Client](https://github.com/mc-b/M300/raw/master/images/Git_36x36.png) ##Git-Client##
+![Git-Client](https://github.com/mc-b/M300/raw/master/images/Git_36x36.png) 
+## Git-Client ##
