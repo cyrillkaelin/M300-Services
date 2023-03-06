@@ -12,7 +12,7 @@
 ### Repository erstellen ###
 1. Innerhalb der Willkommens-Seite auf Start a project klicken
 2. Unter Repository name einen Name definieren ** M300-Services **
-3. **Optional: ** *kurze Beschreibung eingeben:* Plattform übergreifende Dienste in ein Netzwerk integrieren
+3. *Optional:* kurze Beschreibung eingeben: Plattform übergreifende Dienste in ein Netzwerk integrieren
 4. Radio-Button bei Public belassen
 5. Haken bei Initialize this repository with a README setzen
 6. Auf Create repository klicken
@@ -20,8 +20,8 @@
 ***
 ### SSH KEY erstellen ###
 1. ssh-keygen -t rsa -b 4096 -C ~~E-Mail-Adresse von Git-Hub~~ "cyrill.kaelin@edu.tbz.ch"
-  anschliessend kommt die Meldung:
-  * Neuer SSH-Key wird erstellt Generating public/private rsa key pair. *
+  
+   anschliessend kommt die Meldung: Neuer SSH-Key wird erstellt Generating public/private rsa key pair.
 2. Bei der Abfrage, unter welchem Namen der Schlüssel gespeichert werden soll, die Enter-Taste drücken (für Standard):
    Enter a file in which to save the key (~/.ssh/id_rsa): [Press enter]
 3. Nun kann ein Passwort für den Key festgelegt werden. Ich empfehle dieses zu setzen und anschliessend dem SSH-Agent zu hinterlegen, 
