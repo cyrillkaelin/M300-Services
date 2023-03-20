@@ -65,5 +65,5 @@ $  git push                        #Upload bzw. Push wird durchgeführt
 1. Iso-Datei herunterladen
 2. Manuelle Konfiguration
 3. VM aufgezogen
-![Git-CL
+![Ubuntu VM] (https://github.com/cyrillkaelin/M300-Services/blob/main/Bilder/Virtualbox_ubuntu.png)
 
