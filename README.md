@@ -65,5 +65,33 @@ $  git push                        #Upload bzw. Push wird durchgeführt
 1. Iso-Datei herunterladen
 2. Manuelle Konfiguration
 3. VM aufgezogen
+4. 
 ![Ubuntu VM](https://github.com/cyrillkaelin/M300-Services/blob/main/Bilder/Virtualbox_ubuntu.png)
+***
+## Vagrant ##
+### Wie funktioniert Vagrant ###
+Im Prinzip handelt es sich bei Vagrant um ein Werkzeug, das Software zur Virtualisierung wie VirtualBox oder VMware fernsteuern kann. Auf dem Weg ermöglicht es das automatisierte Erstellen von virtuellen Maschinen an Hand einer zuvor erzeugten Konfigurationsdatei.
 
+Vagrant kann anhand eines vorgefertigten Json file, alles übernehmen und sämtliche VMs automatisch erstellen.
+
+### Einrichtung ###
+1. Ordner für Vagrant erstellt
+```
+$ cd C:\
+$ mkdir M300
+$ cd M300
+$ mkdir Vagrant
+$ cd Vagrant
+```
+2. Im VisualstudioCode kann ein Vagrantfile im Json Format erstellt werden, wo alles definiert werden kann
+- RAM
+- CPU's
+- Speicherkapazität
+- ISO
+- Was für Apps installiert werden.
+
+3. Vagrantfile, dass man erstellt hat, kann nun eingespielt werden
+```
+$ vagrant init Dateiname        #Vagrantfile erzeugen
+$ vagrant up --provider virtualbox  #Provider, in dem die Virtuelle Maschine erzeugt wird angeben  
+```
