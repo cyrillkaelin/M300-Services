@@ -42,3 +42,8 @@
 ***
 ## Git-Client ##
 ![Git-CLient](https://github.com/mc-b/M300/raw/master/images/Git_36x36.png)
+
+### Git-Client Konfigruation ###
+- Git Bash öffnen
+`$ git config --global user.name "<username>"
+ $ git config --global user.email "<e-mail>" `
