@@ -40,5 +40,11 @@
 6. Den Key im Ordner C:\Users\cyrill.kaelin.CYKA-CHZH-LAP03\.ssh\id_rsa.pub kopieren und mit CTRL + V einfügen und auf Add SSH key klicken
 7. Der Schlüssel (SSH-Key) sollte nun in der übergeordneten Liste auftauchen
 ***
-![Git Client](https://github.com/mc-b/M300/raw/master/images/Git_36x36.png) 
 ## Git-Client ##
+![Git-CLient](https://github.com/mc-b/M300/raw/master/images/Git_36x36.png)
+
+### Git-Client Konfigruation ###
+- Git Bash öffnen
+
+`$ git config --global user.name "<username>"
+ $ git config --global user.email "<e-mail>" `
