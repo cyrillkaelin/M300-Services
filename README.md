@@ -96,3 +96,20 @@ $ vagrant init Dateiname        #Vagrantfile erzeugen
 $ vagrant up --provider virtualbox  #Provider, in dem die Virtuelle Maschine erzeugt wird angeben  
 ```
 4. VM erscheint nun im Virtualbox
+
+### Repository hinzufügen und Pushen ###
+1. Visual Studio Code öffnen
+2. Änderungen an entsprechenden Dateien des lokalen Repositorys vornehmen oder neu Dateien in den Ordner kopieren
+3. In der linken Leiste das Symbol mit einer "1" aufrufen
+Unter dem Abschnitt Changes die betroffenen Files bezüglich ihres Changes "stagen" (Stage Changes)
+Nachricht hinterlegen (Message) und Haken (Commit) setzen
+Bei den 3 Punkten (...) die Funktion Push aufrufen
+Warten, bis Dateien vollständig gepusht wurden
+
+
+# Reflexion #
+Ich habe noch nie mit Vagrant gearbeitet und wusste auch nicht dass man VMs automatisiert erstellen kann.
+Durch Vagrant kann ich nun virtuelle Maschinen schnell und einfach erstellen und konfigurieren, um Anwendungen zu testen und Umgebungen zu errichten.
+Die Automatisierung mit Vagrant bitte viele Vorteile wie zum Beispiel die Wiederholbarkeit, Zeitersparnis, Flexibilität und Portabilität.
+Ich finde das Modul bis jetzt sehr nützlich und hilfreich in der Berufswelt
+
