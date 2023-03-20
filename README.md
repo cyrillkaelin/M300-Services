@@ -51,8 +51,8 @@ $ git config --global user.name "<cyrillkaelin>"
 $ git config --global user.email "<cyrill.kaelin@edu.tbz.ch>" 
 ```
 ### Standard Commands
-cd Pfad/zu/meinem/Repository    # Zum lokalen GitHub-Repository wechseln
 ```
+$ cd                               # Change Directory
 $  git status                      # Geänderte Datei(en) werden rot aufgelistet
 $  git add -A                      # Fügt alle Dateien zum "Upload" hinzu
 $  git status                      # Der Status ist nun grün > Dateien sind Upload-bereit (Optional) 
@@ -60,3 +60,10 @@ $  git commit -m "Mein Kommentar"  # Upload wird "commited" > Kommentar zu Dokum
 $  git status                      # Dateien werden nun als "zum Pushen bereit" angezeigt
 $  git push                        #Upload bzw. Push wird durchgeführt
 ```
+***
+## Virtualbox ##
+1. Iso-Datei herunterladen
+2. Manuelle Konfiguration
+3. VM aufgezogen
+![Git-CL
+
