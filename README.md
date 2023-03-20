@@ -44,9 +44,19 @@
 ![Git-CLient](https://github.com/mc-b/M300/raw/master/images/Git_36x36.png)
 
 ### Git-Client Konfigruation ###
-- Git Bash öffnen
-
+1. Git Bash öffnen
+2. Github Grundkonfiguration
 ```
-$ git config --global user.name "<username>"
-$ git config --global user.email "<e-mail>" 
+$ git config --global user.name "<cyrillkaelin>"
+$ git config --global user.email "<cyrill.kaelin@edu.tbz.ch>" 
+```
+### Standard Commands
+cd Pfad/zu/meinem/Repository    # Zum lokalen GitHub-Repository wechseln
+```
+$  git status                      # Geänderte Datei(en) werden rot aufgelistet
+$  git add -A                      # Fügt alle Dateien zum "Upload" hinzu
+$  git status                      # Der Status ist nun grün > Dateien sind Upload-bereit (Optional) 
+$  git commit -m "Mein Kommentar"  # Upload wird "commited" > Kommentar zu Dokumentationszwecken ist dafür notwendig
+$  git status                      # Dateien werden nun als "zum Pushen bereit" angezeigt
+$  git push                        #Upload bzw. Push wird durchgeführt
 ```
