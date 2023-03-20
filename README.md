@@ -45,5 +45,6 @@
 
 ### Git-Client Konfigruation ###
 - Git Bash öffnen
+
 `$ git config --global user.name "<username>"
  $ git config --global user.email "<e-mail>" `
