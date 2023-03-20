@@ -28,7 +28,7 @@
    sodass keine erneute Eingabe     (z.B. beim Pushen) notwendig ist:
    Enter passphrase (empty for no passphrase): [Passwort] 
    Enter same passphrase again: [Passwort wiederholen]
-  ** Mein Passwort: ** *12345678*
+  ** Mein Passwort** *12345678*
   ***
 ### SSH-Key dem SSH-Agent hinzufügen ###
 
