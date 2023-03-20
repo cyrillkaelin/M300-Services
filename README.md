@@ -95,3 +95,4 @@ $ cd Vagrant
 $ vagrant init Dateiname        #Vagrantfile erzeugen
 $ vagrant up --provider virtualbox  #Provider, in dem die Virtuelle Maschine erzeugt wird angeben  
 ```
+4. VM erscheint nun im Virtualbox
