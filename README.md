@@ -107,13 +107,13 @@ Bei den 3 Punkten (...) die Funktion Push aufrufen
 Warten, bis Dateien vollständig gepusht wurden
 
 ## Firewall Rules ##
-1.  sudo ufw enable
-2.  sudo ufw allow 80/tcp
-3.  sudo ufw allow from [192.168.7.231] to any port 22
-4.  sudo ufw allow from [192.168.7.231] to any port 3306
+1. sudo apt-get install ufw
+2.  sudo ufw enable
+3.  sudo ufw allow 80/tcp
+4.  sudo ufw allow from [192.168.7.231] to any port 22
+5.  sudo ufw allow from [192.168.7.231] to any port 3306
 # Reflexion #
 Ich habe noch nie mit Vagrant gearbeitet und wusste auch nicht dass man VMs automatisiert erstellen kann.
 Durch Vagrant kann ich nun virtuelle Maschinen schnell und einfach erstellen und konfigurieren, um Anwendungen zu testen und Umgebungen zu errichten.
 Die Automatisierung mit Vagrant bitte viele Vorteile wie zum Beispiel die Wiederholbarkeit, Zeitersparnis, Flexibilität und Portabilität.
 Ich finde das Modul bis jetzt sehr nützlich und hilfreich für die Berufswelt.
-
