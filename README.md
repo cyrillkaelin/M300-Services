@@ -65,5 +65,55 @@ $  git push                        #Upload bzw. Push wird durchgeführt
 1. Iso-Datei herunterladen
 2. Manuelle Konfiguration
 3. VM aufgezogen
-![Git-CL
+4. 
+![Ubuntu VM](https://github.com/cyrillkaelin/M300-Services/blob/main/Bilder/Virtualbox_ubuntu.png)
+***
+## Vagrant ##
+### Wie funktioniert Vagrant ###
+Im Prinzip handelt es sich bei Vagrant um ein Werkzeug, das Software zur Virtualisierung wie VirtualBox oder VMware fernsteuern kann. Auf dem Weg ermöglicht es das automatisierte Erstellen von virtuellen Maschinen an Hand einer zuvor erzeugten Konfigurationsdatei.
+
+Vagrant kann anhand eines vorgefertigten Json file, alles übernehmen und sämtliche VMs automatisch erstellen.
+
+### Einrichtung ###
+1. Ordner für Vagrant erstellt
+```
+$ cd C:\
+$ mkdir M300
+$ cd M300
+$ mkdir Vagrant
+$ cd Vagrant
+```
+2. Im VisualstudioCode kann ein Vagrantfile im Json Format erstellt werden, wo alles definiert werden kann
+- RAM
+- CPU's
+- Speicherkapazität
+- ISO
+- Was für Apps installiert werden.
+
+3. Vagrantfile, dass man erstellt hat, kann nun eingespielt werden
+```
+$ vagrant init Dateiname        #Vagrantfile erzeugen
+$ vagrant up --provider virtualbox  #Provider, in dem die Virtuelle Maschine erzeugt wird angeben  
+```
+4. VM erscheint nun im Virtualbox
+
+### Repository hinzufügen und Pushen ###
+1. Visual Studio Code öffnen
+2. Änderungen an entsprechenden Dateien des lokalen Repositorys vornehmen oder neu Dateien in den Ordner kopieren
+3. In der linken Leiste das Symbol mit einer "1" aufrufen
+Unter dem Abschnitt Changes die betroffenen Files bezüglich ihres Changes "stagen" (Stage Changes)
+Nachricht hinterlegen (Message) und Haken (Commit) setzen
+Bei den 3 Punkten (...) die Funktion Push aufrufen
+Warten, bis Dateien vollständig gepusht wurden
+
+## Firewall Rules ##
+1.  sudo ufw enable
+2.  sudo ufw allow 80/tcp
+3.  sudo ufw allow from [192.168.7.231] to any port 22
+4.  sudo ufw allow from [192.168.7.231] to any port 3306
+# Reflexion #
+Ich habe noch nie mit Vagrant gearbeitet und wusste auch nicht dass man VMs automatisiert erstellen kann.
+Durch Vagrant kann ich nun virtuelle Maschinen schnell und einfach erstellen und konfigurieren, um Anwendungen zu testen und Umgebungen zu errichten.
+Die Automatisierung mit Vagrant bitte viele Vorteile wie zum Beispiel die Wiederholbarkeit, Zeitersparnis, Flexibilität und Portabilität.
+Ich finde das Modul bis jetzt sehr nützlich und hilfreich für die Berufswelt.
 
