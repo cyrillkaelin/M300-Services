@@ -6,8 +6,26 @@ der Laptop eines Anwenders oder ein Cluster in der Cloud.
 Administratoren können sich auf die Netzwerke, Ressourcen und die Uptime konzentrieren und müssen weniger Zeit mit dem Konfigurieren
 von Umgebungen und dem Kampf mit Systemabhängigkeiten verbringen.
 
+## Docker ##
+|**Vorteile**|**Nachteile**|
+|------------------|
+|Portabilität | Linux Verständnis
+|Skalierbarkeit | Sicherheit
+|Isolation | Überkopf
+|Wiederverwendbarkeit| Komplexität
+|Schnellebereitstellung | 
+***
+## Befehle ##
 
-|Vorteile | Nachteile |
-|---------------------
-|Portabilität | Linux verständnis |
+### docker run ###
+1. Startet neue Container
+2. Ermöglicht es dem Anwender, zu konfigurieren, wie das Image laufen soll, Dockerfile-Einstellungen zu überschreiben, Verbindungen zu konfigurieren und Berechtigungen und Ressourcen für den Container zu setzen.
+
+Startet einen Test Container 
+`$ docker run hello-world`
+
+Startet einen oder mehrere gestoppte Container
+`$ docker start`
+
+
 
