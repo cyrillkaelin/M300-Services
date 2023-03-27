@@ -1,1 +1,13 @@
 # LB03 Container
+## Vorwort Container die neue Ära##
+Container ändern die Art und Weise, wie wir Software entwickeln, verteilen und laufen lassen, grundlegend.
+Entwickler können Software lokal bauen, die woanders genauso laufen wird – sei es ein Rack in der IT-Abteilung,
+der Laptop eines Anwenders oder ein Cluster in der Cloud.
+Administratoren können sich auf die Netzwerke, Ressourcen und die Uptime konzentrieren und müssen weniger Zeit mit dem Konfigurieren
+von Umgebungen und dem Kampf mit Systemabhängigkeiten verbringen.
+
+
+|Vorteile | Nachteile |
+|---------------------
+|Portabilität | Linux verständnis |
+
